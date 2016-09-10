@@ -1,6 +1,6 @@
 # stops-away
 
-run "ruby stops_away.rb <station_id>" to show upcoming vehicles and how many stops away they are
+run "ruby stops_away.rb station_id" to show upcoming vehicles and how many stops away they are
 
 station_id should be one of: place-boyls, place-pktrm, place-gover, place-haecl, place-north, place-spmnl
 
