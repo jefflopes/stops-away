@@ -1,0 +1,13 @@
+Lechmere_Sci_ParkWB,6,5,4,3,2,Approaching
+Sci_ParkWB,5,4,3,2,1,Boarding
+Sci_Park_N_StaWB,5,4,3,2,Approaching,REMOVE
+N_StaWB,4,3,2,1,Boarding,REMOVE
+N_Sta_HaymarketWB,4,3,2,Approaching,REMOVE,REMOVE
+HaymarketWB,3,2,1,Boarding,REMOVE,REMOVE
+Haymarket_Govt_CtrWB,3,2,Approaching,REMOVE,REMOVE,REMOVE
+Govt_CtrWB,2,1,Boarding,REMOVE,REMOVE,REMOVE
+Govt_Ctr_ParkWB,2,Approaching,REMOVE,REMOVE,REMOVE,REMOVE
+Park_Wall_WB,1,Boarding,REMOVE,REMOVE,REMOVE,REMOVE
+Park_Fence_WB,1,Boarding,REMOVE,REMOVE,REMOVE,REMOVE
+Park_BoylstonWB,Approaching,REMOVE,REMOVE,REMOVE,REMOVE,REMOVE
+BoylstonWB,Boarding,REMOVE,REMOVE,REMOVE,REMOVE,REMOVE
