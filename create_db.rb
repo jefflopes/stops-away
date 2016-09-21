@@ -37,11 +37,10 @@ end
 def createSegments
   segments = @green_db[:segments]
 
-  # We need to round the lat/lon for now because they don't match what's in the realtime API
   CSV.foreach(File.join(DATA_DIR, SEGMENTS_FILE)) do |row|
     segments.insert(:segment_id => row[2],
-                    :segment_lat => row[0].to_f.round(5),
-                    :segment_lon => row[1].to_f.round(5))
+                    :segment_lat => row[0],
+                    :segment_lon => row[1])
   end
 end
 
