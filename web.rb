@@ -7,6 +7,6 @@ def simple_format(text)
       text
 end
 
-get '/' do
+get '/stops_away' do
   simple_format(`ruby stops_away.rb`)
 end
